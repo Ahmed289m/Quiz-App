@@ -1,0 +1,85 @@
+.container{
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.top-part{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 4px solid aquamarine;
+}
+
+ul{
+    list-style: none;
+    
+}
+li{
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+body{
+    background-color: aquamarine ;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button-part{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.button-part > .next {
+    display: none;
+}
+.button-part > .repeat {
+
+    display: none;
+}
+button{
+    background-color: aquamarine;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+padding-bottom: 5px;
+border: 1px solid white;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.red{
+    background-color: rgba(226, 31, 31, 0.858);
+    transition-duration: 0.5s;
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.77);
+    transition-duration: 0.5s;
+
+}
+
+.undo{
+    background-color: antiquewhite;
+}
+#correct{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-size: 100px;
+}
